@@ -1,0 +1,6 @@
+<p>
+    ${bookInfo.map (entry => {
+return `<ul>${entry.name} ${entry.author} ${entry.genre} ${entry.year_published} ${entry.rating}</ul>`
+    }
+    ).join('')}
+</p>
